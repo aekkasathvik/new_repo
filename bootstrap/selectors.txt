@@ -1,0 +1,32 @@
+selectors in CSS
+
+universal selector -*
+* {
+}
+element selector
+h1  {
+}
+this is a id selector
+#id {
+}
+this is a class selector
+.c {
+}
+descendent tag : all the para tags inside the paragraph tag
+div p {
+}
+ sibling combinator tag : h3 elements coming after p tag
+p+h3 {
+}
+
+ child combinator :parent on left and child on right 
+span >button
+{
+}
+
+child combinator only checks immediate child but where as in descendent selector it selects all the child elements 
+attribute selector  
+input[att="val"]
+{
+}
+
